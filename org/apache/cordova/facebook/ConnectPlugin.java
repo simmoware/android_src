@@ -274,7 +274,7 @@ public class ConnectPlugin extends Plugin {
             prefs.edit().putString("access_token", token).commit();
 
           	Log.d(TAG, "authorized");
-            Log.d(TAG, values.toString());
+            //Log.d(TAG, values.toString());
 
             Thread t = new Thread(new Runnable() {
                 public void run() {
